@@ -117,6 +117,7 @@ def play(board) #repeat turn until over returns true
   until over?(board)
     turn(board)
     over?(board)
+  end
   if won?(board)
     winner = winner(board)
     puts "Congratulations #{winner}!"
