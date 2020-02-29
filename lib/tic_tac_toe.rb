@@ -98,7 +98,6 @@ end
 
 def over?(board)
   if won?(board)
-    puts 'over true'
     return true
   end
   if draw?(board)
