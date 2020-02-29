@@ -117,7 +117,7 @@ def play(board) #repeat turn until over returns true
   until over?(board)
     turn(board)
       print board
-    over?(board)
+    f = over?(board)
     # print false
   end
   if won?(board)
