@@ -116,6 +116,7 @@ end
 def play(board) #repeat turn until over returns true
   until over?(board)
     turn(board)
+      print
     over?(board)
   end
   if won?(board)
