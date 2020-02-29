@@ -97,7 +97,6 @@ def draw?(board)
 end
 
 def over?(board)
-  print 'calling over', board, '\n'
   if won?(board)
     puts 'over true'
     return true
