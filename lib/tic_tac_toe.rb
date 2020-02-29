@@ -97,12 +97,16 @@ def draw?(board)
 end
 
 def over?(board)
+  print 'calling over', board, '\n'
   if won?(board)
+    puts 'over true'
     return true
   end
   if draw?(board)
+    puts 'over true 2'
     return true
   end
+  puts 'over false'
   false
 end
 
