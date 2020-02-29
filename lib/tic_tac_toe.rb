@@ -101,7 +101,6 @@ def over?(board)
     return true
   end
   if draw?(board)
-    puts 'over true 2'
     return true
   end
   puts 'over false'
