@@ -119,6 +119,10 @@ end
 def play(board) #repeat turn until over returns true
   until over?(board)
     turn(board)
+    print board
+    # f = over?(board)
+    # print f
+    # print false
   end
   if won?(board)
     winner = winner(board)
