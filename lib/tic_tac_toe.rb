@@ -103,7 +103,6 @@ def over?(board)
   if draw?(board)
     return true
   end
-  puts 'over false'
   false
 end
 
